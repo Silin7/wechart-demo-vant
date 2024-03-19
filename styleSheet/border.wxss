@@ -1,0 +1,10 @@
+/* 圆角 */
+.br10 {
+  border-radius: 10rpx;
+}
+.br20 {
+  border-radius: 20rpx;
+}
+.br50 {
+  border-radius: 50%;
+}

@@ -1,0 +1,19 @@
+/* 溢出 */
+.oh {
+  overflow: hidden;
+}
+.oa {
+  overflow: auto;
+}
+.oxa {
+  overflow-x: auto;
+}
+.oxh {
+  overflow-x: hidden;
+}
+.oya {
+  overflow-y: auto;
+}
+.oyh {
+  overflow-y: hidden;
+}

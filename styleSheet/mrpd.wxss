@@ -1,0 +1,62 @@
+/* 外边距 */
+.m10 {
+  margin: 10rpx;
+}
+.m20 {
+  margin: 20rpx;
+}
+.mt10 {
+  margin-top: 10rpx;
+}
+.mt20 {
+  margin-top: 20rpx;
+}
+.mb10 {
+  margin-bottom: 10rpx;
+}
+.mb20 {
+  margin-bottom: 20rpx;
+}
+.ml10 {
+  margin-left: 10rpx;
+}
+.ml20 {
+  margin-left: 20rpx;
+}
+.mr10 {
+  margin-right: 10rpx;
+}
+.mr20 {
+  margin-right: 20rpx;
+}
+/* 内边距 */
+.p10 {
+  padding: 10rpx;
+}
+.p20 {
+  padding: 20rpx;
+}
+.pt10 {
+  padding-top: 10rpx;
+}
+.pt20 {
+  padding-top: 20rpx;
+}
+.pb10 {
+  padding-bottom: 10rpx;
+}
+.pb20 {
+  padding-bottom: 20rpx;
+}
+.pl0 {
+  padding-left: 10rpx;
+}
+.pl20 {
+  padding-left: 20rpx;
+}
+.pr10 {
+  padding-right: 10rpx;
+}
+.pr20 {
+  padding-right: 20rpx;
+}

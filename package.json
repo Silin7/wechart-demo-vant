@@ -1,0 +1,18 @@
+{
+  "name": "WeChatDemo",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "silin.wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Silin7/wsl-xcx/issues"
+  },
+  "homepage": "https://github.com/Silin7/wsl-xcx#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.11.4",
+    "regenerator-runtime": "^0.13.11"
+  }
+}

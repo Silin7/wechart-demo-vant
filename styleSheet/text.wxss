@@ -1,0 +1,21 @@
+/* 字间距 */
+.ls20 {
+  letter-spacing: 20rpx;
+}
+/* 多行文本溢出显示省略号 */
+.to1 {
+  display: -webkit-box; 
+  overflow:hidden;
+  text-overflow: elipsis;
+  word-break: break-all;
+  -webkit-box-orient:vertical; 
+  -webkit-line-clamp: 1;
+}
+.to2 {
+  display: -webkit-box; 
+  overflow:hidden;
+  text-overflow: elipsis;
+  word-break: break-all;
+  -webkit-box-orient:vertical; 
+  -webkit-line-clamp: 2;
+}
