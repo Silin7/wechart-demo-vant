@@ -3,6 +3,7 @@
   "usingComponents": {
     "van-button": "@vant/weapp/button/index",
     "van-datetime-picker": "@vant/weapp/datetime-picker/index",
+    "van-uploader": "@vant/weapp/uploader/index",
     "component-choosePicker": "/pages/component/choosePicker/choosePicker"
   }
 }

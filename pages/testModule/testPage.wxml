@@ -1,9 +1,12 @@
 <view>
   <van-button type="primary" bind:tap="pickerBtn">choosePicker组件</van-button>
-  <component-choosePicker pickerShow="{{pickerShow}}" pickerTitle="标题" dataList="{{pickerList}}" bind:confirmItem="confirmItem" />
+  <component-choosePicker pickerShow="{{ pickerShow }}" pickerTitle="标题" dataList="{{ pickerList }}" bind:confirmItem="confirmItem" />
 </view>
 <view>
   <van-button type="warning" bind:tap="toastBtn">Toast弹框</van-button>
   <van-button type="primary" bind:tap="modalBtn">modal弹框</van-button>
   <van-button type="warning" bind:tap="actionBtn">action弹框</van-button>
+</view>
+<view style="border: 1rpx solid red;">
+  <van-uploader file-list="{{ fileList }}" bind:after-read="afterRead" />
 </view>
