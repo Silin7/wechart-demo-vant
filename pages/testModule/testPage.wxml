@@ -1,8 +1,13 @@
-<!--pages/homeModule/homePage.wxml-->
-<van-button type="default" bind:tap="defaultBtn">默认按钮</van-button>
-<van-button type="primary">主要按钮</van-button>
-<van-button type="info">信息按钮</van-button>
-<van-button type="warning">警告按钮</van-button>
-<van-button type="danger">危险按钮</van-button>
-
-<component-choosePicker pickerShow="{{pickerShow}}" pickerTitle="标题" dataList="{{pickerList}}" bind:confirmItem="confirmItem" />
+<view>
+  <van-button type="primary" bind:tap="pickerBtn">choosePicker组件</van-button>
+  <component-choosePicker pickerShow="{{pickerShow}}" pickerTitle="标题" dataList="{{pickerList}}" bind:confirmItem="confirmItem" />
+</view>
+<view>
+  <van-button type="warning" bind:tap="toastBtn">Toast弹框</van-button>
+</view>
+<view>
+  <van-button type="primary" bind:tap="modalBtn">modal弹框</van-button>
+</view>
+<view>
+  <van-button type="warning" bind:tap="actionBtn">action弹框</van-button>
+</view>
