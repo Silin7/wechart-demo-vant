@@ -1,6 +1,8 @@
 <!--pages/homeModule/homePage.wxml-->
-<van-button type="default">默认按钮</van-button>
+<van-button type="default" bind:tap="defaultBtn">默认按钮</van-button>
 <van-button type="primary">主要按钮</van-button>
 <van-button type="info">信息按钮</van-button>
 <van-button type="warning">警告按钮</van-button>
 <van-button type="danger">危险按钮</van-button>
+
+<component-choosePicker pickerShow="{{pickerShow}}" pickerTitle="标题" dataList="{{pickerList}}" bind:confirmItem="confirmItem" />

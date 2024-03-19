@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "测试页面",
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "component-choosePicker": "/pages/component/choosePicker/choosePicker"
+  }
+}

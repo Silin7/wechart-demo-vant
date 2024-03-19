@@ -7,3 +7,23 @@
 @import "./styleSheet/overflow.wxss";
 @import "./styleSheet/text.wxss";
 @import "./styleSheet/w_h.wxss";
+/* 全局组件样式 */
+.van-picker__toolbar {
+  height: 100rpx !important;
+  line-height: 100rpx !important;
+  border-bottom: 1rpx solid #f0f0f4;
+}
+.van-picker__title {
+  font-weight: 700 !important;
+  color: #333 !important;
+}
+.van-picker__cancel {
+  color: #4545FF !important;
+}
+.van-picker__confirm {
+  color: #4545FF !important;
+}
+/* toast文本居中 */
+.van-toast__text {
+  text-align: center;
+}

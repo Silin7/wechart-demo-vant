@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/testModule/testPage",
     "pages/homeModule/homePage",
     "pages/mineModule/minePage"
   ],
@@ -9,12 +10,12 @@
     "backgroundColor": "#FFFFFF",
     "list": [{
       "pagePath": "pages/homeModule/homePage",
-      "text": "首 页",
+      "text": "首页",
       "iconPath": "/images/homeModule/home_normal.png",
       "selectedIconPath": "/images/homeModule/home_active.png"
-    },{
+    }, {
       "pagePath": "pages/mineModule/minePage",
-      "text": "我 的",
+      "text": "我的",
       "iconPath": "/images/homeModule/mine_normal.png",
       "selectedIconPath": "/images/homeModule/mine_active.png"
     }]

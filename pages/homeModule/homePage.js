@@ -5,7 +5,27 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    pickerShow: false,
+    pickerList: [
+      { text: '交通代步', value: '01' } ,
+      { text: '手机数码', value: '02' } ,
+      { text: '家用电器', value: '03' } ,
+      { text: '个护日用', value: '04' } ,
+      { text: '家居家装', value: '05' } ,
+      { text: '母婴用品', value: '06' } ,
+      { text: '文体图书', value: '07' } ,
+      { text: '服饰箱包', value: '08' } ,
+      { text: '其他物品', value: '09' } 
+    ]
+  },
+  defaultBtn() {
+    this.setData({
+      pickerShow: true
+    })
+    console.log(this.data.pickerShow);
+  },
+  confirmItem(event) {
+    console.log(event.detail.value);
   },
 
   /**

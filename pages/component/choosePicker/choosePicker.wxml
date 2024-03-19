@@ -1,0 +1,3 @@
+<van-popup show="{{pickerShow}}" position="bottom">
+  <van-picker show-toolbar title="{{pickerTitle}}" columns="{{dataList}}" bind:cancel="onCancel" bind:confirm="onConfirm" item-height="50" />
+</van-popup>
