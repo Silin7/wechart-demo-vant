@@ -4,10 +4,6 @@
 </view>
 <view>
   <van-button type="warning" bind:tap="toastBtn">Toast弹框</van-button>
-</view>
-<view>
   <van-button type="primary" bind:tap="modalBtn">modal弹框</van-button>
-</view>
-<view>
   <van-button type="warning" bind:tap="actionBtn">action弹框</van-button>
 </view>
